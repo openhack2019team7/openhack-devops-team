@@ -31,7 +31,7 @@ ingress:
   rules:
     endpoint:
       #fqdn of your exposed application (found in ohteamvalues file)
-      host:
+      host: akstraefikopenhacksdh8.northeurope.cloudapp.azure.com
       paths:
       - path: /api/trips
         serviceName: api-trip-svc
